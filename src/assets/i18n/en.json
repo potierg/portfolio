@@ -1,0 +1,168 @@
+{
+  "about": {
+    "title": "About",
+    "block1": {
+      "subtitle": "Professional Experiences",
+      "text1": "My name is Sophie Potier, and I am actively seeking my next role as a <b>Product Owner</b>.",
+      "text2": "I am passionate about creating innovative products, and my journey began with a solid education in <b>Web Project Management</b>, specializing in UI/UX design, where I gained extensive skills and a deep understanding of the industry's challenges. During my studies, I had the opportunity to apply my knowledge through internships at Mobibam and MeetinClass, where I successfully managed multiple projects.",
+      "text3": "Over the course of my two years at Door-in, I honed my product management skills and collaborated closely with technical teams to align user needs with the company's business objectives. ",
+      "text4": "Now, I am determined to explore new horizons and continue innovating as a Product Owner. My goal is to create products that solve real user problems while delivering an exceptional user experience."
+    },
+    "block2": {
+      "subtitle": "Personal Experiences",
+      "text1": "I have a passion for <b>embroidery</b>, which I discovered as an art form that allows for endless creativity and personal satisfaction. Each stitch I make on the fabric is an opportunity for me to express my personality and create unique pieces filled with emotion.",
+      "text2": "I had the incredible opportunity to embark on a year-long adventure in <b>Australia</b>. This experience was truly transformative, allowing me to explore different professions, breathtaking landscapes, and fascinating individuals. This immersive journey enabled me to develop unwavering open-mindedness, gain self-confidence, and deepen my empathy towards others. Each encounter was an opportunity for enrichment and connection with people from diverse cultures.",
+      "text3": "As an <b>empathetic</b> individual, I strive to create inclusive environments and value the needs and aspirations of those around me. I am excited to leverage my skills and passion to contribute to projects that have a positive impact on individuals and communities."
+    }
+  },
+  "epitech": {
+    "title": "EPITECH DIGITAL SCHOOL",
+    "smallTitle": "Formerly known as SUP'INTERNET - 2017 - 2020",
+    "block": {
+      "subtitle": "Bachelor's Degree in Web Project Management: UI/UX Design",
+      "text1": "My academic journey at SUP'INTERNET, now known as EPITECH DIGITAL SCHOOL, was a pivotal step in my development as a web professional.",
+      "text2": "I pursued a Bachelor's Degree in <b>Web Project Management</b> with a specialization in UI/UX Design, where I acquired essential foundations in design, web integration, and UI/UX Design.",
+      "text3": "I learned the principles of user-centered design, creating user-friendly and intuitive interfaces. Throughout my academic journey, I had the opportunity to apply my skills in various projects.",
+      "text4": "Every year, I undertook internships that allowed me to further <b>develop my knowledge</b> and gain hands-on experience in professional environments.",
+      "text5": "This comprehensive education has equipped me to tackle the challenges of the professional world and has provided me with a strong foundation to pursue my career as a <b>Product Designer</b>."
+    }
+  },
+  "mobibam": {
+    "title": "MOBIBAM",
+    "smallTitle": "First-year Internship - 2017 - 3 months - Graphic Designer / Web Integrator",
+    "block1": {
+      "subtitle": "Company Overview",
+      "text1": "Mobibam is a BtoC company located at Station F in Paris, specializing in custom furniture. They offer services to customers for creating their own <b>custom-made furniture</b>. ",
+      "text2": "Mobibam focuses on each individual's personality and space, striving to meet customer requests promptly. ",
+      "text3": "Their goal is to simplify, accelerate, and reduce costs to provide a quality service made in France."
+    },
+    "block2": {
+      "subtitle": "My Responsibilities",
+      "list": {
+        "0": "Web and print communication support",
+        "1": "Video editing",
+        "2": "Photo post-production",
+        "3": "Web integration using HTML5 / CSS3"
+      }
+    },
+    "title2": "Print communication materials",
+    "title3": "Web integration and animations",
+    "btn": "View"
+  },
+  "meet-in-class": {
+    "title": "MEET IN CLASS",
+    "smallTitle": "Second and Third-Year Internship - 2018 and 2019 - 4 and 6 months - UX Designer",
+    "block1": {
+      "subtitle": "Company Overview",
+      "text1": "MeetinClass is an innovative company that offers a solution for small-group tutoring with a clear goal: <b>to make tutoring accessible to all</b>. Students can share the costs of tutoring sessions, allowing them to benefit from the expertise of experienced teachers at an affordable price.",
+      "text2": "MeetinClass has adapted to the challenges posed by the COVID-19 pandemic and swiftly implemented <b>online classes</b> to continue supporting students despite the restrictions. Through this transition, students can now receive educational support from experienced teachers wherever they are, utilizing advanced digital tools."
+    },
+    "subtitle": "My Responsibilities",
+    "block2": {
+      "subtitle": "Second Year - 2018",
+      "list": {
+        "0": "UX design for the application dashboard",
+        "1": "Creation of web and print communication materials",
+        "2": "Video editing",
+        "3": "Web design",
+        "4": "Social media management"
+      }
+    },
+    "block3": {
+      "subtitle": "Third Year - 2019",
+      "list": {
+        "0": "User journey mapping and design",
+        "1": "Analysis and design of ergonomic interfaces for a SAAS application",
+        "2": "Blog article conception and writing, visual selection for social media",
+        "3": "Planning and creation of targeted advertisements on social media."
+      }
+    },
+    "title2": "Website",
+    "title3": "SAAS Platform",
+    "title4": "Content and Social Media",
+    "btn": "View"
+  },
+  "door-in": {
+    "title": "DOOR-IN",
+    "smallTitle": "Full-time position - 2020-2022 - From UI/UX Designer to Product Owner",
+    "block1": {
+      "subtitle": "Company Overview",
+      "text1": "Door-in is a specialized <b>real estate services</b> company that offers innovative solutions. They stand out for their expertise in property management. ",
+      "text2": "Their customer-centric approach ensures a personalized and high-quality experience that meets the needs and expectations of their clients. ",
+      "text3": "They offer three products: Horace (rental management), Athéna (property management), and Marius (co-ownership management)."
+    },
+    "block2": {
+      "subtitle": "My Responsibilities",
+      "list": {
+        "0": "Collaborating with the team to co-create the product roadmap and contributing to its evolution. ",
+        "1": "Managing and updating the product backlog. ",
+        "2": "Designing and enhancing the user interface of web platforms (wireframes, mockups, prototypes) using Figma and leveraging the existing Vuetify.JS framework. ",
+        "3": "Writing technical specifications for complex products. ",
+        "4": "Participating in testing phases (code maintenance and development of new modules). ",
+        "5": "Identifying and tracking bugs, as well as gathering user feedback. ",
+        "6": "Conducting competitive analysis and market observation."
+      }
+    },
+    "title2": "Graphic Identity",
+    "title3": "HORACE Module",
+    "title4": "ATHENA Module",
+    "title5": "MARIUS Module",
+    "btn": "View"
+  },
+  "australia": {
+    "title": "1 year in Australia",
+    "smallTitle": "Working Holiday Visa - August 2022 - 2023",
+    "block1": {
+      "text1": "My stay in Australia was an <b>unforgettable experience</b> that allowed me to enhance my adaptability, intercultural communication, and teamwork skills.",
+      "text2": "I explored and appreciated the natural and cultural diversity of the country, while strengthening my ability to adapt, interact with different cultures, and independently solve problems.",
+      "text3": "Moreover, I developed my customer service skills, team management abilities, event coordination expertise, and gained a solid understanding of hygiene and safety standards in the restaurant industry.",
+      "text4": "All these experiences greatly improved my creativity, global perspective, ability to adapt to diverse environments, communication skills, and capacity to work effectively in high-pressure team settings"
+    },
+    "block2": {
+      "subtitle": "MY EXPERIENCES",
+      "boldTitle": "Volunteering with Kangaroos - McIntyre Shelter",
+      "list": {
+        "0": "Preparing milk bottles",
+        "1": "Cleaning areas and replenishing food",
+        "2": "Caring for kangaroos",
+        "3": "Collaborating with other volunteers in a team environment"
+      }
+    },
+    "block3": {
+      "boldTitle": "French Teacher",
+      "list": {
+        "1": "Providing private French lessons",
+        "2": "Theoretical and practical teaching",
+        "3": "Delivering French lessons to an Australian individual eager to learn the French language"
+      }
+    },
+    "block4": {
+      "boldTitle": "Waitress - West Beach Pavilion",
+      "list": {
+        "0": "Cleaning surfaces and setting up tables",
+        "1": "Opening and closing the restaurant",
+        "2": "Welcoming and seating guests",
+        "3": "Adhering to hygiene and safety standards",
+        "4": "Managing service in high-pressure conditions",
+        "5": "Collaborating with kitchen staff",
+        "6": "Presenting bills and processing payments",
+        "7": "Clearing plates, glasses, etc., to the kitchen for cleaning",
+        "8": "Managing space and organization for events",
+        "9": "Responsible for maintaining cleanliness and organization in the restaurant",
+        "10": "Welcoming and training new restaurant employees."
+      }
+    }
+  },
+  "next": {
+    "title": "What's Next?",
+    "block": {
+      "text1": "After reviewing my portfolio and exploring my journey through my experiences, internships, and employment, you may be wondering: <b>what are the next challenges ?</b>",
+      "text2": "I am open to any professional opportunities that allow me to continue growing and taking on new challenges. I am ready to bring my skills and expertise to the table.",
+      "text3": "If my profile has piqued your interest, please don't hesitate to contact me. I would be delighted to connect with you and explore potential working opportunities together."
+    },
+    "subtitle": "CONTACT",
+    "contact1": "Phone : +33 7 49 39 88 35",
+    "contact2": "Email : potiersophie@hotmail.fr",
+    "btn": "Linkedin"
+  }
+}

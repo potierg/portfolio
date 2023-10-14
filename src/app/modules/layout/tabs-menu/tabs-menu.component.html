@@ -1,0 +1,70 @@
+<div class="tabs-menu">
+  <div class="row justify-content-evenly">
+    <div class="col" [class]="{ active: selected === 'about' }">
+      <img
+        [src]="
+          '/assets/tabs/about' +
+          (selected === 'about' ? '-active' : '') +
+          '.png'
+        "
+        [routerLink]="'/about'"
+      />
+    </div>
+    <div class="col" [class]="{ active: selected === 'epitech' }">
+      <img
+        [src]="
+          '/assets/tabs/eds' +
+          (selected === 'epitech' ? '-active' : '') +
+          '.png'
+        "
+        [routerLink]="'/epitech'"
+      />
+    </div>
+    <div class="col" [class]="{ active: selected === 'mobibam' }">
+      <img
+        [src]="
+          '/assets/tabs/mobibam' +
+          (selected === 'mobibam' ? '-active' : '') +
+          '.png'
+        "
+        [routerLink]="'/mobibam'"
+      />
+    </div>
+    <div class="col" [class]="{ active: selected === 'mic' }">
+      <img
+        [src]="
+          '/assets/tabs/mic' + (selected === 'mic' ? '-active' : '') + '.png'
+        "
+        [routerLink]="'/meet-in-class'"
+      />
+    </div>
+    <div class="col" [class]="{ active: selected === 'doorin' }">
+      <img
+        [src]="
+          '/assets/tabs/doorin' +
+          (selected === 'doorin' ? '-active' : '') +
+          '.png'
+        "
+        [routerLink]="'/door-in'"
+      />
+    </div>
+    <div class="col" [class]="{ active: selected === 'australia' }">
+      <img
+        [src]="
+          '/assets/tabs/australia' +
+          (selected === 'australia' ? '-active' : '') +
+          '.png'
+        "
+        [routerLink]="'/australia'"
+      />
+    </div>
+    <div class="col" [class]="{ active: selected === 'next' }">
+      <img
+        [src]="
+          '/assets/tabs/suite' + (selected === 'next' ? '-active' : '') + '.png'
+        "
+        [routerLink]="'/next'"
+      />
+    </div>
+  </div>
+</div>

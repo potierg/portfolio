@@ -1,0 +1,39 @@
+<app-img-background url="/assets/backgrounds/mobibam.png">
+  <app-top-bar></app-top-bar>
+  <app-tabs-menu selected="mobibam"></app-tabs-menu>
+  <app-main-layout>
+    <app-card>
+      <p class="title">{{ "mobibam.title" | transloco }}</p>
+      <p class="title-small">{{ "mobibam.smallTitle" | transloco }}</p>
+      <span class="space"></span>
+      <p class="subtitle">
+        {{ "mobibam.block1.subtitle" | transloco }}
+      </p>
+      <div class="text">
+        <p [innerHTML]="'mobibam.block1.text1' | transloco"></p>
+        <div class="space-10"></div>
+        <p [innerHTML]="'mobibam.block1.text2' | transloco"></p>
+        <div class="space-10"></div>
+        <p [innerHTML]="'mobibam.block1.text3' | transloco"></p>
+      </div>
+      <span class="space"></span>
+      <p class="subtitle">
+        {{ "mobibam.block2.subtitle" | transloco }}
+      </p>
+      <ul>
+        <li [innerHTML]="'mobibam.block2.list.0' | transloco"></li>
+        <li [innerHTML]="'mobibam.block2.list.1' | transloco"></li>
+        <li [innerHTML]="'mobibam.block2.list.2' | transloco"></li>
+        <li [innerHTML]="'mobibam.block2.list.3' | transloco"></li>
+      </ul>
+    </app-card>
+    <div style="height: 30px"></div>
+    <app-card [small]="true">
+      <p class="subtitle mb-0">{{ "mobibam.title2" | transloco }}</p>
+    </app-card>
+    <div style="height: 10px"></div>
+    <app-card [small]="true">
+      <p class="subtitle mb-0">{{ "mobibam.title3" | transloco }}</p>
+    </app-card>
+  </app-main-layout>
+</app-img-background>

@@ -1,0 +1,168 @@
+{
+  "about": {
+    "title": "À PROPOS",
+    "block1": {
+      "subtitle": "Expériences professionnelles",
+      "text1": "Je m’appelle Sophie Potier, je suis à la recherche de mon prochain emploi en tant que <b>Product Owner</b>.",
+      "text2": "Passionnée par la création de produits innovants, mon parcours a débuté avec une solide formation en <b>Management de Projet Web</b>, spécialisation UI/UX design, au cours de laquelle j'ai acquis de nombreuses compétences et une compréhension approfondie des défis de l'industrie. Au cours de cette formation, j'ai eu l'opportunité de mettre en pratique mes connaissances lors de mes stages chez Mobibam et MeetinClass, où j'ai réussi à gérer plusieurs missions avec succès.",
+      "text3": "Pendant mes deux années chez Door-in, j'ai pu perfectionner mes compétences en gestion de produits et collaborer étroitement avec les équipes techniques pour aligner les besoins des utilisateurs et les objectifs commerciaux de l'entreprise.",
+      "text4": "A présent, je suis déterminée à explorer de nouveaux horizons et à continuer à innover en tant que Product Owner. Mon objectif est de créer des produits qui résolvent les problèmes concrets des utilisateurs tout en offrant une expérience utilisateur exceptionnelle."
+    },
+    "block2": {
+      "subtitle": "Expériences personnelles",
+      "text1": "Je suis passionnée de <b>broderie</b>, depuis que j'ai découvert cet art délicat, j'ai trouvé une source infinie de créativité et de satisfaction. Chaque point que je pose sur le tissu est une occasion pour moi d'exprimer ma personnalité et de créer des pièces uniques pleine d'émotion.",
+      "text2": "J'ai eu l’opportunité de partir à l'aventure pendant un an en <b>Australie</b>. Cette expérience a été une véritable révélation pour moi, me permettant de découvrir de nouveaux métiers, des paysages à couper le souffle et des personnes fascinantes. Cette immersion totale m'a permis de développer une ouverture d'esprit inébranlable, de prendre confiance en moi et d'approfondir mon empathie envers autrui. Chaque rencontre a été une occasion d'enrichissement et de connexion avec des personnes de cultures différentes.",
+      "text3": "En tant que personne <b>empathique</b>, je m'efforce de créer des environnements inclusifs et de valoriser les besoins et les aspirations des personnes qui m'entourent. Je suis ravie de mettre mes compétences et ma passion au service de projets ayant un impact positif sur les individus et les communautés."
+    }
+  },
+  "epitech": {
+    "title": "EPITECH DIGITAL SCHOOL",
+    "smallTitle": "ANCIENNEMENT SUP’INTERNET - 2017 - 2020",
+    "block": {
+      "subtitle": "Bachelor en Management de projet web : UI/UX DESIGN",
+      "text1": "Mon parcours à SUP'INTERNET, également connu sous le nom d'EPITECH DIGITAL SCHOOL, a été une étape fondamentale dans ma formation en tant que professionnelle du web. ",
+      "text2": "J'ai suivi le Bachelor en <b>Management de projet web</b> avec une spécialisation en UI/UX Design, dans lequel j'ai acquis les bases essentielles du design, de l'intégration web et de l'UI/UX Design.",
+      "text3": "J'ai acquis les principes du design centré sur l'utilisateur, concevant des interfaces conviviales et intuitives. J'ai pu ainsi mettre en œuvre mes compétences tout au long de mon parcours académique.",
+      "text4": "Chaque année, j'ai eu l'opportunité d'effectuer un stage me permettant de <b>développer mes connaissances</b> et de me confronter à des projets concrets dans des environnements professionnels.",
+      "text5": "Cette formation complète m'a préparé à relever les défis du monde professionnel et m'a donné une base solide pour poursuivre ma carrière en tant que <b>Product Designer</b>."
+    }
+  },
+  "mobibam": {
+    "title": "MOBIBAM",
+    "smallTitle": "Stage de Première année - 2017 - 3 mois - Graphiste / Intégrateur web",
+    "block1": {
+      "subtitle": "Présentation de l’entreprise",
+      "text1": "Mobibam est une société BtoC située à Station F à Paris, spécialisée dans le meuble sur mesure, qui propose à ses clients des services pour créer leur <b>meuble sur-mesure</b>. ",
+      "text2": "Mobibam se penche sur la personnalité de chacun et sur l'espace et tente de répondre aux demandes des clients dans les plus brefs délais. ",
+      "text3": "Mobibam veut rendre les choses plus simples, plus rapides et moins chères afin de proposer un service de qualité made in France. "
+    },
+    "block2": {
+      "subtitle": "Mes missions",
+      "list": {
+        "0": "Support de communication web et print",
+        "1": "Montage vidéo",
+        "2": "Post production photo",
+        "3": "Intégration web HTML5 / CCS3"
+      }
+    },
+    "title2": "Supports de communication print",
+    "title3": "Intégration web et animations",
+    "btn": "Consulter"
+  },
+  "meet-in-class": {
+    "title": "MEET IN CLASS",
+    "smallTitle": "Stage de Deuxième et Troisième année - 2018 et 2019 - 4 et 6 mois - UX designer",
+    "block1": {
+      "subtitle": "Présentation de l’entreprise",
+      "text1": "MeetinClass est une entreprise proposant une solution novatrice de cours de soutien en mini-groupes, avec un objectif clair : <b>rendre les cours de soutien accessibles à tous</b>. Les élèves peuvent partager les frais d'un cours de soutien, leur permettant ainsi de bénéficier de l'expertise de professeurs expérimentés à un prix abordable.",
+      "text2": "MeetinClass a su s'adapter aux défis posés par la pandémie de COVID-19 et a rapidement mis en place des <b>cours en ligne</b> pour continuer à accompagner les élèves malgré les restrictions. Grâce à cette transition, les élèves peuvent désormais bénéficier du soutien pédagogique de professeurs expérimentés où qu'ils se trouvent, en utilisant des outils numériques avancés."
+    },
+    "subtitle": "Mes missions",
+    "block2": {
+      "subtitle": "Deuxième année - 2018",
+      "list": {
+        "0": "Conception UX pour le tableau de bord de l'application",
+        "1": "Création de supports de communication web et print",
+        "2": "Montage de vidéos",
+        "3": "Design de sites web",
+        "4": "Gestion des réseaux sociaux"
+      }
+    },
+    "block3": {
+      "subtitle": "Troisième année - 2019",
+      "list": {
+        "0": "Réflexion et conception des parcours utilisateurs",
+        "1": "Analyse et conception d'interfaces ergonomiques pour une application SAAS",
+        "2": "Conception et rédaction d'articles de blog, sélection des visuels pour les réseaux sociaux",
+        "3": "Planification et création de publicités ciblées sur les réseaux sociaux."
+      }
+    },
+    "title2": "SITE WEB",
+    "title3": "PLATEFORME SAAS",
+    "title4": "contenu et Réseaux sociaux",
+    "btn": "Consulter"
+  },
+  "door-in": {
+    "title": "DOOR-IN",
+    "smallTitle": "CDI - 2020-2022 - de UI/UX designer à Product Owner",
+    "block1": {
+      "subtitle": "Présentation de l'entreprise",
+      "text1": "Door-in est une société spécialisée dans les <b>services immobiliers</b>, offrant des solutions innovantes. Elle se distingue par son expertise dans la gestion de biens immobiliers.  ",
+      "text2": "Leur approche centrée sur le client garantit une expérience personnalisée et de haute qualité, répondant à leurs besoins et attentes. ",
+      "text3": "Trois produits sont proposés : Horace (mise en location), Athéna (gestion locative) et Marius (gestion copropriétaire)."
+    },
+    "block2": {
+      "subtitle": "mes missions",
+      "list": {
+        "0": "Co-construction de la roadmap produit avec l'équipe et contribution à son évolution.",
+        "1": "Gestion et mise à jour du backlog produit.",
+        "2": "Conception et amélioration de l'interface utilisateur des plateformes web (wireframes, maquettes, prototypes) sur Figma, en utilisant le framework existant Vuetify.JS.",
+        "3": "Rédaction de spécifications techniques pour les produits complexes.",
+        "4": "Participation aux phases de tests (maintenance du code et développement de nouveaux modules).",
+        "5": "Identification et suivi des bugs, ainsi que retour d'information des utilisateurs.",
+        "6": "Veille concurrentielle et observation du marché."
+      }
+    },
+    "title2": "Identité graphique",
+    "title3": "Module HORACE",
+    "title4": "Module ATHENA",
+    "title5": "Module MARIUS",
+    "btn": "Consulter"
+  },
+  "australia": {
+    "title": "1 an en Australie",
+    "smallTitle": "PVT - AOÛT 2022 - 2023",
+    "block1": {
+      "text1": "Mon séjour en Australie a été une <b>expérience inoubliable</b>, me permettant d'enrichir mes compétences d'adaptation, de communication inter-culturelle et de travail d'équipe. ",
+      "text2": "J'ai exploré et apprécié la diversité naturelle et culturelle de ce pays, tout en renforçant ma capacité à m'adapter, à interagir avec différentes cultures et à résoudre des problèmes de manière autonome. ",
+      "text3": "De plus, j'ai développé mes compétences en service à la clientèle, en gestion d'équipe, en coordination d'événements spéciaux et acquis une solide connaissance des normes d'hygiène et de sécurité dans l'industrie de la restauration. ",
+      "text4": "Toutes ces expériences ont grandement amélioré ma créativité, ma vision globale, ma capacité à m'adapter aux environnements diversifiés, ma communication et ma capacité à travailler en équipe sous haute tension"
+    },
+    "block2": {
+      "subtitle": "MES EXPÉRIENCES",
+      "boldTitle": "Volontariat avec les kangourous - McIntyre",
+      "list": {
+        "0": "Préparation des biberons de lait",
+        "1": "Nettoyage des zones et réapprovisionnement de nourriture",
+        "2": "Soins prodigués aux kangourous",
+        "3": "Travail d'équipe avec d'autres bénévoles"
+      }
+    },
+    "block3": {
+      "boldTitle": "Professeur de français",
+      "list": {
+        "0": "Cours de français particuliers",
+        "1": "Cours théorique et pratique",
+        "2": "Dispensations de cours de français à une personne australienne voulant apprendre la langue française"
+      }
+    },
+    "block4": {
+      "boldTitle": "Serveuse - West Beach Pavilion",
+      "list": {
+        "0": "Nettoyage des surfaces et mise en place des tables",
+        "1": "Ouverture et fermeture du restaurant",
+        "2": "Accueil et placement des clients",
+        "3": "Respect des normes d'hygiène et de sécurité",
+        "4": "Gestion du service dans des conditions de pression élevée",
+        "5": "Collaboration avec le personnel de cuisine",
+        "6": "Présentation des additions et encaissement des paiements",
+        "7": "Débarrassage des assiettes, verres, etc. vers la cuisine pour le nettoyage",
+        "8": "Gestion de l'espace et de l'organisation pour les événements",
+        "9": "Responsabilité du maintien de la propreté et de l'organisation du restaurant",
+        "10": "Accueil et formation des nouveaux employés du restaurant."
+      }
+    }
+  },
+  "next": {
+    "title": "Et après ?",
+    "block": {
+      "text1": "Après avoir examiné mon portfolio et exploré mon parcours à travers mes expériences, stages et emploi, vous pourriez vous demander : <b>quels sont les prochains défis ?</b>",
+      "text2": "Je suis ouverte à toutes opportunités professionnelles me permettant de continuer à progresser et à relever de nouveaux défis. Je suis prête à vous apporter mes compétences et mon expertise.",
+      "text3": "Si mon profil a suscité votre intérêt, n'hésitez pas à me contacter, je serais ravie d'échanger avec vous et d'explorer les possibilités de travail ensemble."
+    },
+    "subtitle": "CONTACT",
+    "contact1": "Téléphone : +33 7 49 39 88 35",
+    "contact2": "E-mail : potiersophie@hotmail.fr",
+    "btn": "Linkedin"
+  }
+}

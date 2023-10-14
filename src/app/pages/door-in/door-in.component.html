@@ -1,0 +1,50 @@
+<app-img-background url="/assets/backgrounds/door-in.png">
+  <app-top-bar></app-top-bar>
+  <app-tabs-menu selected="doorin"></app-tabs-menu>
+  <app-main-layout>
+    <app-card>
+      <p class="title">{{ "door-in.title" | transloco }}</p>
+      <p class="title-small">{{ "door-in.smallTitle" | transloco }}</p>
+      <span class="space"></span>
+      <p class="subtitle">
+        {{ "door-in.block1.subtitle" | transloco }}
+      </p>
+      <div class="text">
+        <p [innerHTML]="'door-in.block1.text1' | transloco"></p>
+        <div class="space-10"></div>
+        <p [innerHTML]="'door-in.block1.text2' | transloco"></p>
+        <div class="space-10"></div>
+        <p [innerHTML]="'door-in.block1.text3' | transloco"></p>
+      </div>
+      <span class="space"></span>
+      <p class="subtitle">
+        {{ "door-in.block2.subtitle" | transloco }}
+      </p>
+      <ul>
+        <li [innerHTML]="'door-in.block2.list.0' | transloco"></li>
+        <li [innerHTML]="'door-in.block2.list.1' | transloco"></li>
+        <li [innerHTML]="'door-in.block2.list.2' | transloco"></li>
+        <li [innerHTML]="'door-in.block2.list.3' | transloco"></li>
+        <li [innerHTML]="'door-in.block2.list.4' | transloco"></li>
+        <li [innerHTML]="'door-in.block2.list.5' | transloco"></li>
+        <li [innerHTML]="'door-in.block2.list.6' | transloco"></li>
+      </ul>
+    </app-card>
+    <div style="height: 30px"></div>
+    <app-card [small]="true">
+      <p class="subtitle mb-0">{{ "door-in.title2" | transloco }}</p>
+    </app-card>
+    <div style="height: 10px"></div>
+    <app-card [small]="true">
+      <p class="subtitle mb-0">{{ "door-in.title3" | transloco }}</p>
+    </app-card>
+    <div style="height: 10px"></div>
+    <app-card [small]="true">
+      <p class="subtitle mb-0">{{ "door-in.title4" | transloco }}</p>
+    </app-card>
+    <div style="height: 10px"></div>
+    <app-card [small]="true">
+      <p class="subtitle mb-0">{{ "door-in.title5" | transloco }}</p>
+    </app-card>
+  </app-main-layout>
+</app-img-background>

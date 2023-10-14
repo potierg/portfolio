@@ -1,0 +1,104 @@
+.home-page {
+  background: url('/assets/home.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+
+  padding-top: 255px;
+
+  &__middle {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &--lang {
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+      margin-bottom: 40px;  
+    }
+
+    &--title {
+      color: #FFF;
+      text-align: center;
+      font-family: Josefin Sans;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 70px; /* 250% */ 
+    }
+
+    &--profession {
+      color: #FFF;
+      text-align: center;
+      font-family: Josefin Sans;
+      font-size: 75.168px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal; 
+    }
+
+    &--sub {
+      color: #FFF;
+      text-align: center;
+      font-family: Josefin Sans;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal; 
+    }
+
+    &--discover {
+      margin-top: 40px;  
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+    }
+  }
+}
+
+button {
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+
+  padding: 8px 12px;
+
+  &.margin {
+    margin-right: 16px;
+  }
+
+  &.active {
+    border: 2px solid #FFF;
+    box-shadow: 0px 4px 4;
+  }
+
+  img {
+    vertical-align: middle;
+    margin-right: 4px;
+    width: 24px;
+    height: 24px;
+  }
+
+  span {
+    color: #FFF;
+    font-family: Avenir Next;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;   
+    vertical-align: middle;
+  }
+
+  &.icon {
+    .mat-icon {
+      position: absolute;
+    }
+
+    span {
+      margin-left: 28px;
+    }
+  }
+}

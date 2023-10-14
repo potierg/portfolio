@@ -1,0 +1,82 @@
+.card {
+  border-radius: 8px;
+  background: #FFF; 
+  padding: 40px;
+
+}
+
+:host {
+  ::ng-deep span.space {
+    height: 40px;
+  }
+
+  ::ng-deep .space-10 {
+    height: 10px;
+  }
+
+  ::ng-deep .space-20 {
+    height: 20px;
+  }
+
+  ::ng-deep .space-30 {
+    height: 30px;
+  }
+
+  ::ng-deep .space-40 {
+    height: 40px;
+  }
+
+  ::ng-deep .title {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+  }
+
+  ::ng-deep .title-small {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase; 
+  }
+
+  ::ng-deep .subtitle {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase; 
+  }
+
+  ::ng-deep .boldtitle {
+    color: #000;
+    font-family: Avenir Next;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    text-transform: uppercase; 
+  }
+
+  ::ng-deep .text {
+    color: #000;
+    text-align: justify;
+    font-family: Avenir Next;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  ::ng-deep br {
+    height: 10px;
+  }
+
+}

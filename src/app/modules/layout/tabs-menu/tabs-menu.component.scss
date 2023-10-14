@@ -1,0 +1,29 @@
+.tabs-menu {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+
+  img {
+    width: 126px;
+    height: 126px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+    &:hover {
+      width: 140px;
+      height: 140px;  
+    }
+  }
+
+  .no-margin {
+    margin-right: 0;
+  }
+  
+  .col.active {
+    img {
+      width: 160px;
+      height: 160px;  
+    }
+  }
+}

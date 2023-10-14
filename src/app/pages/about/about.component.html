@@ -1,0 +1,33 @@
+<app-img-background url="/assets/backgrounds/about.png">
+  <app-top-bar></app-top-bar>
+  <app-tabs-menu selected="about"></app-tabs-menu>
+  <app-main-layout>
+    <app-card>
+      <p class="title">{{ "about.title" | transloco }}</p>
+      <span class="space"></span>
+      <p class="subtitle">
+        {{ "about.block1.subtitle" | transloco }}
+      </p>
+      <div class="text">
+        <p [innerHTML]="'about.block1.text1' | transloco"></p>
+        <div class="space-10"></div>
+        <p [innerHTML]="'about.block1.text2' | transloco"></p>
+        <div class="space-10"></div>
+        <p [innerHTML]="'about.block1.text3' | transloco"></p>
+        <div class="space-10"></div>
+        <p [innerHTML]="'about.block1.text4' | transloco"></p>
+      </div>
+      <span class="space"></span>
+      <p class="subtitle">
+        {{ "about.block2.subtitle" | transloco }}
+      </p>
+      <div class="text">
+        <p [innerHTML]="'about.block1.text1' | transloco"></p>
+        <div class="space-10"></div>
+        <p [innerHTML]="'about.block1.text2' | transloco"></p>
+        <div class="space-10"></div>
+        <p [innerHTML]="'about.block1.text3' | transloco"></p>
+      </div>
+    </app-card>
+  </app-main-layout>
+</app-img-background>
