@@ -1,0 +1,104 @@
+:host {
+  ::ng-deep button.btn-close {
+    font-size: 31px;
+    color: black;
+    opacity: 1;
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+  }
+
+  .inner-modal {
+    margin: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .modal-title {
+    margin-top: 80px;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase; 
+  }
+
+  ::ng-deep .modal-icons {
+    margin-top: 10px;
+    img {
+      width: 45px;
+      height: 45px;
+
+      &:not(.first) {
+        margin-left: -15px;
+      }
+    }
+  }
+
+  ::ng-deep .modal-body {
+    margin-top: 40px;
+  }
+
+  ::ng-deep .modal-separator {
+    display: block;
+    height: 10px;
+    width: 100%;
+  }
+
+  ::ng-deep .modal-space {
+    display: block;
+    height: 60px;
+    width: 100%;
+
+    &.space-12 {
+      height: 12px;
+    }
+
+    &.space-30 {
+      height: 30px;
+    }
+
+    &.space-40 {
+      height: 40px;
+    }
+
+    &.space-70 {
+      height: 70px;
+    }
+  }
+
+  ::ng-deep .modal-block-title {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 112% */
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  ::ng-deep .modal-img {
+    width: 100%;
+
+    &.img-half {
+      margin: auto;
+      width: auto;
+      display: block;
+      max-height: 195px;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+
+      &.medium {
+        max-height: 230px;
+      }
+
+      &.high {
+        max-height: 488px;
+      }
+    }
+  }
+}

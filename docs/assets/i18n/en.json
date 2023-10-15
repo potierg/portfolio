@@ -1,0 +1,273 @@
+{
+  "home": {
+    "fr": "French",
+    "en": "English",
+    "description": "Empathy / Team work / Agility",
+    "btn": "Enter"
+  },
+  "about": {
+    "title": "About",
+    "block1": {
+      "subtitle": "Professional Experiences",
+      "text1": "My name is Sophie Potier, and I am actively seeking my next role as a <b>Product Owner</b>.",
+      "text2": "I am passionate about creating innovative products, and my journey began with a solid education in <b>Web Project Management</b>, specializing in UI/UX design, where I gained extensive skills and a deep understanding of the industry's challenges. During my studies, I had the opportunity to apply my knowledge through internships at Mobibam and MeetinClass, where I successfully managed multiple projects.",
+      "text3": "Over the course of my two years at Door-in, I honed my product management skills and collaborated closely with technical teams to align user needs with the company's business objectives. ",
+      "text4": "Now, I am determined to explore new horizons and continue innovating as a Product Owner. My goal is to create products that solve real user problems while delivering an exceptional user experience."
+    },
+    "block2": {
+      "subtitle": "Personal Experiences",
+      "text1": "I have a passion for <b>embroidery</b>, which I discovered as an art form that allows for endless creativity and personal satisfaction. Each stitch I make on the fabric is an opportunity for me to express my personality and create unique pieces filled with emotion.",
+      "text2": "I had the incredible opportunity to embark on a year-long adventure in <b>Australia</b>. This experience was truly transformative, allowing me to explore different professions, breathtaking landscapes, and fascinating individuals. This immersive journey enabled me to develop unwavering open-mindedness, gain self-confidence, and deepen my empathy towards others. Each encounter was an opportunity for enrichment and connection with people from diverse cultures.",
+      "text3": "As an <b>empathetic</b> individual, I strive to create inclusive environments and value the needs and aspirations of those around me. I am excited to leverage my skills and passion to contribute to projects that have a positive impact on individuals and communities."
+    },
+    "download": "Download Resume"
+  },
+  "epitech": {
+    "title": "EPITECH DIGITAL SCHOOL",
+    "smallTitle": "Formerly known as SUP'INTERNET - 2017 - 2020",
+    "block": {
+      "subtitle": "Bachelor's Degree in Web Project Management: UI/UX Design",
+      "text1": "My academic journey at SUP'INTERNET, now known as EPITECH DIGITAL SCHOOL, was a pivotal step in my development as a web professional.",
+      "text2": "I pursued a Bachelor's Degree in <b>Web Project Management</b> with a specialization in UI/UX Design, where I acquired essential foundations in design, web integration, and UI/UX Design.",
+      "text3": "I learned the principles of user-centered design, creating user-friendly and intuitive interfaces. Throughout my academic journey, I had the opportunity to apply my skills in various projects.",
+      "text4": "Every year, I undertook internships that allowed me to further <b>develop my knowledge</b> and gain hands-on experience in professional environments.",
+      "text5": "This comprehensive education has equipped me to tackle the challenges of the professional world and has provided me with a strong foundation to pursue my career as a <b>Product Designer</b>."
+    }
+  },
+  "mobibam": {
+    "title": "MOBIBAM",
+    "smallTitle": "First-year Internship - 2017 - 3 months - Graphic Designer / Web Integrator",
+    "block1": {
+      "subtitle": "Company Overview",
+      "text1": "Mobibam is a BtoC company located at Station F in Paris, specializing in custom furniture. They offer services to customers for creating their own <b>custom-made furniture</b>. ",
+      "text2": "Mobibam focuses on each individual's personality and space, striving to meet customer requests promptly. ",
+      "text3": "Their goal is to simplify, accelerate, and reduce costs to provide a quality service made in France."
+    },
+    "block2": {
+      "subtitle": "My Responsibilities",
+      "list": {
+        "0": "Web and print communication support",
+        "1": "Video editing",
+        "2": "Photo post-production",
+        "3": "Web integration using HTML5 / CSS3"
+      }
+    },
+    "title2": "Print communication materials",
+    "title3": "Web integration and animations",
+    "btn": "View",
+    "modals": {
+      "0": {
+        "title": "Web integration and animations",
+        "block": {
+          "text1": "As a Graphic Designer and Web Integrator at Mobibam, I had the opportunity to work on an exciting project: the development of an interactive toolbar for the online 3D configurator. My goal was to create an immersive and engaging experience for our customers, allowing them to visualize our custom-made furniture realistically.",
+          "text2": "Using my HTML and CSS skills, I designed an intuitive toolbar that allows users to browse and select different types of furniture we offer. I ensured that the toolbar was aesthetically appealing and easy to use, highlighting furniture categories clearly and visually.",
+          "text3": "To add a touch of animation and interactivity, I implemented hover animations for the furniture items. When users hover over a piece of furniture, it animates by opening drawers or cabinets, providing an immersive visual experience. This feature allows customers to easily envision their future space and appreciate the details and functionality.",
+          "text4": "Another important consideration was to make this functionality accessible across different devices. Therefore, I adapted the interactive toolbar to be responsive, meaning it adapts to different screen sizes, whether on a tablet or mobile. This way, our customers can use the 3D configurator and explore our range of custom-made furniture anytime, anywhere."
+        },
+        "desktop": "desktop ",
+        "tablet": "tablet",
+        "mobile": "mobile"
+      },
+      "1": {
+        "title": "Print communication materials",
+        "block": {
+          "text1": "As a Graphic Designer / Web Integrator at Mobibam, I worked on various print communication materials to promote our custom-made furniture. These materials included a kakemono, a brochure, a flyer, a discount card, and a construction manual. Through these print communication materials, my aim was to showcase Mobibam's expertise in creating custom French furniture, offering our customers a unique and personalized experience in interior design.",
+          "text2": "The discount card serves as a way to foster customer loyalty for their future design projects. The card I created provides benefits and discounts on our custom-made products.",
+          "text3": "The brochure is an essential medium for presenting our range of furniture. I created a visually appealing brochure, highlighting our achievements and emphasizing the quality, durability, and design of our products.",
+          "text4": "The construction manual is a practical and informative tool that guides our customers through the assembly process of their custom-made furniture. I developed a clear and detailed tutorial, complete with diagrams and instructions, to facilitate the construction process for our customers.",
+          "text5": "The kakemono is a powerful tool for capturing attention at events. It showcases our flagship product and acts as a mobile showcase for our custom creations.",
+          "text6": "The flyer is an effective tool for enticing customers to visit our showroom. I utilized furniture visuals, illustrations, and compelling messages to introduce and promote our creations."
+        }
+      }
+    }
+  },
+  "meet-in-class": {
+    "title": "MEET IN CLASS",
+    "smallTitle": "Second and Third-Year Internship - 2018 and 2019 - 4 and 6 months - UX Designer",
+    "block1": {
+      "subtitle": "Company Overview",
+      "text1": "MeetinClass is an innovative company that offers a solution for small-group tutoring with a clear goal: <b>to make tutoring accessible to all</b>. Students can share the costs of tutoring sessions, allowing them to benefit from the expertise of experienced teachers at an affordable price.",
+      "text2": "MeetinClass has adapted to the challenges posed by the COVID-19 pandemic and swiftly implemented <b>online classes</b> to continue supporting students despite the restrictions. Through this transition, students can now receive educational support from experienced teachers wherever they are, utilizing advanced digital tools."
+    },
+    "subtitle": "My Responsibilities",
+    "block2": {
+      "subtitle": "Second Year - 2018",
+      "list": {
+        "0": "UX design for the application dashboard",
+        "1": "Creation of web and print communication materials",
+        "2": "Video editing",
+        "3": "Web design",
+        "4": "Social media management"
+      }
+    },
+    "block3": {
+      "subtitle": "Third Year - 2019",
+      "list": {
+        "0": "User journey mapping and design",
+        "1": "Analysis and design of ergonomic interfaces for a SAAS application",
+        "2": "Blog article conception and writing, visual selection for social media",
+        "3": "Planning and creation of targeted advertisements on social media."
+      }
+    },
+    "title2": "Website",
+    "title3": "SAAS Platform",
+    "title4": "Content and Social Media",
+    "btn": "View",
+    "modals": {
+      "0": {
+        "title": "",
+        "block1": {
+          "title": "\"TEACHERS\" PAGE",
+          "text": "As a UI/UX designer, I was responsible for revamping the \"Teachers\" page and the \"Courses\" page. I began with an analysis of the website and competitors such as Kelclass, Superprof, Voscours, etc. Here are the key findings:"
+        },
+        "block2": {
+          "title": "Positive aspects :",
+          "list": {
+            "0": "Information: photo, first name, experience, location",
+            "1": "Contact : send a message, call MeetinClass, request a lesson",
+            "2": "About section written by the teacher",
+            "3": "Key information about the course"
+          }
+        },
+        "block3": {
+          "title": "Negative aspects :",
+          "list": {
+            "0": "Key information about the course",
+            "1": "Absence of reviews or recommendations from former students and parents that could reassure prospective clients",
+            "2": "Separation of teachers from the courses they offer"
+          }
+        },
+        "block4": {
+          "title": "Redesign :",
+          "text1": "We now have a more detailed and reassuring \"Teachers\" page for students and parents. ",
+          "text2": "At a glance, users can get an overview of the teacher, the subjects they teach, and the number of reviews they have received.",
+          "text3": "Our certified teachers now have a certification badge. Each teacher has the opportunity to take a proficiency test to validate their teaching skills.",
+          "text4": "The \"About\" section is initially condensed and can be expanded by students or parents to learn more.",
+          "text5": "The courses offered by the teacher are displayed, allowing students to enroll directly without waiting for another student to sign up to create a course.",
+          "text6": "Finally, each student or parent has the option to leave a review for the teacher after the lesson."
+        }
+      },
+      "1": {
+        "title": "SAAS Platform",
+        "block1": {
+          "title": "A Platform for Teachers",
+          "text1": "MeetinClass aims to provide teachers with a user-friendly SAAS platform that allows them to focus primarily on their students.",
+          "text2": "The \"Dashboard\" page provides teachers with an overview of their upcoming classes, their balance, the payment history of students, and allows them to manage their weekly availability.",
+          "text3": "The \"My Courses\" page allows teachers to access their available courses and the list of enrolled students. They have the option to modify the schedule but cannot delete it. In case of absence, teachers can inform MeetinClass.",
+          "text4": "On the \"My Sessions\" page, teachers can review their course history, verify completed payments, and revisit the follow-ups they have sent via email.",
+          "text5": "The SAAS platform is also responsive, enabling teachers to easily access it from their phones."
+        },
+        "block2": {
+          "title": "A Platform for Middle and High Schools",
+          "text": "MeetinClass has established partnerships with schools, allowing middle and high school students to benefit from support classes after regular school hours. To meet this need, a dedicated page for schools has been developed, enabling administrators and supervisors to manage these classes. On this page, they have access to the list of students by class and the private tutors from MeetinClass who are involved."
+        }
+      },
+      "2": {
+        "title": "Content and Social Media",
+        "block1": {
+          "title": "Editorial Calendar",
+          "text1": "At MeetinClass, I played a versatile role and had a strong appetite for learning, constantly seeking to improve. I actively contributed to the development of the editorial calendar, participating in the creation of Facebook advertisements, and conducting tests to determine the most impactful ads.",
+          "text2": "Furthermore, I had the opportunity to create articles for their blog, enhancing them with illustrations, as well as producing videos for MeetinClass' YouTube channel."
+        },
+        "block2": {
+          "title": "Blog Articles",
+          "text1": "MeetinClass has developed a blog to share relevant tips and information about education. Through this platform, I had the opportunity to write blog articles and enhance my skills using Wordpress.",
+          "text2": "Through this blog, I also had the chance to unleash my creativity by designing infographics that visually complemented the article content. By combining text and images, I provided an enriching experience for readers, making the content more engaging and easy to comprehend."
+        },
+        "block3": {
+          "title": "YouTube Videos",
+          "text": "I edited YouTube videos aimed at promoting MeetinClass and increasing its visibility among parents. Through these videos, I highlighted the advantages and unique features of our educational platform while providing entertaining and informative content. By utilizing professional editing techniques and creating captivating content, we were able to reach a broad audience of parents interested in online education."
+        },
+        "block4": {
+          "title": "Facebook Advertisements",
+          "text": "To optimize our advertising strategy on Facebook, we created two ads with distinct variables to better understand our target audience. The aim was to refine our approach and deliver more targeted messaging that resonates with our desired demographic."
+        }
+      }
+    }
+  },
+  "door-in": {
+    "title": "DOOR-IN",
+    "smallTitle": "Full-time position - 2020-2022 - From UI/UX Designer to Product Owner",
+    "block1": {
+      "subtitle": "Company Overview",
+      "text1": "Door-in is a specialized <b>real estate services</b> company that offers innovative solutions. They stand out for their expertise in property management. ",
+      "text2": "Their customer-centric approach ensures a personalized and high-quality experience that meets the needs and expectations of their clients. ",
+      "text3": "They offer three products: Horace (rental management), Athéna (property management), and Marius (co-ownership management)."
+    },
+    "block2": {
+      "subtitle": "My Responsibilities",
+      "list": {
+        "0": "Collaborating with the team to co-create the product roadmap and contributing to its evolution. ",
+        "1": "Managing and updating the product backlog. ",
+        "2": "Designing and enhancing the user interface of web platforms (wireframes, mockups, prototypes) using Figma and leveraging the existing Vuetify.JS framework. ",
+        "3": "Writing technical specifications for complex products. ",
+        "4": "Participating in testing phases (code maintenance and development of new modules). ",
+        "5": "Identifying and tracking bugs, as well as gathering user feedback. ",
+        "6": "Conducting competitive analysis and market observation."
+      }
+    },
+    "title2": "Graphic Identity",
+    "title3": "HORACE Module",
+    "title4": "ATHENA Module",
+    "title5": "MARIUS Module",
+    "btn": "View"
+  },
+  "australia": {
+    "superTitle": "Australia",
+    "title": "1 year in Australia",
+    "smallTitle": "Working Holiday Visa - August 2022 - 2023",
+    "block1": {
+      "text1": "My stay in Australia was an <b>unforgettable experience</b> that allowed me to enhance my adaptability, intercultural communication, and teamwork skills.",
+      "text2": "I explored and appreciated the natural and cultural diversity of the country, while strengthening my ability to adapt, interact with different cultures, and independently solve problems.",
+      "text3": "Moreover, I developed my customer service skills, team management abilities, event coordination expertise, and gained a solid understanding of hygiene and safety standards in the restaurant industry.",
+      "text4": "All these experiences greatly improved my creativity, global perspective, ability to adapt to diverse environments, communication skills, and capacity to work effectively in high-pressure team settings"
+    },
+    "block2": {
+      "subtitle": "MY EXPERIENCES",
+      "boldTitle": "Volunteering with Kangaroos - McIntyre Shelter",
+      "list": {
+        "0": "Preparing milk bottles",
+        "1": "Cleaning areas and replenishing food",
+        "2": "Caring for kangaroos",
+        "3": "Collaborating with other volunteers in a team environment"
+      }
+    },
+    "block3": {
+      "boldTitle": "French Teacher",
+      "list": {
+        "1": "Providing private French lessons",
+        "2": "Theoretical and practical teaching",
+        "3": "Delivering French lessons to an Australian individual eager to learn the French language"
+      }
+    },
+    "block4": {
+      "boldTitle": "Waitress - West Beach Pavilion",
+      "list": {
+        "0": "Cleaning surfaces and setting up tables",
+        "1": "Opening and closing the restaurant",
+        "2": "Welcoming and seating guests",
+        "3": "Adhering to hygiene and safety standards",
+        "4": "Managing service in high-pressure conditions",
+        "5": "Collaborating with kitchen staff",
+        "6": "Presenting bills and processing payments",
+        "7": "Clearing plates, glasses, etc., to the kitchen for cleaning",
+        "8": "Managing space and organization for events",
+        "9": "Responsible for maintaining cleanliness and organization in the restaurant",
+        "10": "Welcoming and training new restaurant employees."
+      }
+    }
+  },
+  "next": {
+    "title": "What's Next?",
+    "block": {
+      "text1": "After reviewing my portfolio and exploring my journey through my experiences, internships, and employment, you may be wondering: <b>what are the next challenges ?</b>",
+      "text2": "I am open to any professional opportunities that allow me to continue growing and taking on new challenges. I am ready to bring my skills and expertise to the table.",
+      "text3": "If my profile has piqued your interest, please don't hesitate to contact me. I would be delighted to connect with you and explore potential working opportunities together."
+    },
+    "subtitle": "CONTACT",
+    "contact1": "Phone : +33 7 49 39 88 35",
+    "contact2": "Email : potiersophie@hotmail.fr",
+    "btn": "Linkedin",
+    "download": "Download Resume"
+  }
+}

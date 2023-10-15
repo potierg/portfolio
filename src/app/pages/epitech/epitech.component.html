@@ -1,25 +1,23 @@
-<app-img-background url="/assets/backgrounds/epitech.png">
-  <app-top-bar></app-top-bar>
-  <app-tabs-menu selected="epitech"></app-tabs-menu>
-  <app-main-layout>
-    <app-card>
-      <p class="title">{{ "epitech.title" | transloco }}</p>
-      <p class="title-small">{{ "epitech.smallTitle" | transloco }}</p>
-      <span class="space"></span>
-      <p class="subtitle">
-        {{ "epitech.block.subtitle" | transloco }}
-      </p>
-      <div class="text">
-        <p [innerHTML]="'epitech.block.text1' | transloco"></p>
-        <div class="space-10"></div>
-        <p [innerHTML]="'epitech.block.text2' | transloco"></p>
-        <div class="space-10"></div>
-        <p [innerHTML]="'epitech.block.text3' | transloco"></p>
-        <div class="space-10"></div>
-        <p [innerHTML]="'epitech.block.text4' | transloco"></p>
-        <div class="space-10"></div>
-        <p [innerHTML]="'epitech.block.text5' | transloco"></p>
-      </div>
-    </app-card>
-  </app-main-layout>
-</app-img-background>
+<app-top-bar></app-top-bar>
+<app-tabs-menu selected="epitech"></app-tabs-menu>
+<app-main-layout>
+  <app-card>
+    <p class="title">{{ "epitech.title" | transloco }}</p>
+    <p class="title-small">{{ "epitech.smallTitle" | transloco }}</p>
+    <span class="space"></span>
+    <p class="subtitle">
+      {{ "epitech.block.subtitle" | transloco }}
+    </p>
+    <div class="text">
+      <p [innerHTML]="'epitech.block.text1' | transloco"></p>
+      <div class="space-10"></div>
+      <p [innerHTML]="'epitech.block.text2' | transloco"></p>
+      <div class="space-10"></div>
+      <p [innerHTML]="'epitech.block.text3' | transloco"></p>
+      <div class="space-10"></div>
+      <p [innerHTML]="'epitech.block.text4' | transloco"></p>
+      <div class="space-10"></div>
+      <p [innerHTML]="'epitech.block.text5' | transloco"></p>
+    </div>
+  </app-card>
+</app-main-layout>

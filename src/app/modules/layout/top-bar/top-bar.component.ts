@@ -11,5 +11,6 @@ export class TopBarComponent {
 
   changeLanguage(languageCode: string) {
     this.translocoService.setActiveLang(languageCode);
+    localStorage.setItem('lang', languageCode);
   }
 }

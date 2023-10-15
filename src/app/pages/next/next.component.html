@@ -1,24 +1,46 @@
-<app-img-background url="/assets/backgrounds/next.png">
-  <app-top-bar></app-top-bar>
-  <app-tabs-menu selected="next"></app-tabs-menu>
-  <app-main-layout>
-    <app-card>
-      <p class="title">{{ "next.title" | transloco }}</p>
-      <span class="space"></span>
-      <div class="text">
-        <p [innerHTML]="'next.block.text1' | transloco"></p>
-        <div class="space-10"></div>
-        <p [innerHTML]="'next.block.text2' | transloco"></p>
-        <div class="space-10"></div>
-        <p [innerHTML]="'next.block.text3' | transloco"></p>
+<app-top-bar></app-top-bar>
+<app-tabs-menu selected="next"></app-tabs-menu>
+<app-main-layout>
+  <app-card>
+    <div class="row">
+      <div class="col-auto me-auto">
+        <p class="title">{{ "next.title" | transloco }}</p>
       </div>
-      <span class="space"></span>
-      <p class="subtitle">
-        {{ "next.subtitle" | transloco }}
-      </p>
+      <div class="col-auto">
+        <button
+          type="button"
+          class="card-button-action download"
+          (click)="downloadCV()"
+        >
+          <mat-icon style="color: #d28c71" fontIcon="download"></mat-icon>
+          <span>{{ "next.download" | transloco }}</span>
+        </button>
+      </div>
+    </div>
+
+    <span class="space"></span>
+    <div class="text">
+      <p [innerHTML]="'next.block.text1' | transloco"></p>
       <div class="space-10"></div>
-      <p>{{ "next.contact1" | transloco }}</p>
-      <p>{{ "next.contact2" | transloco }}</p>
-    </app-card>
-  </app-main-layout>
-</app-img-background>
+      <p [innerHTML]="'next.block.text2' | transloco"></p>
+      <div class="space-10"></div>
+      <p [innerHTML]="'next.block.text3' | transloco"></p>
+    </div>
+    <span class="space"></span>
+    <p class="subtitle">
+      {{ "next.subtitle" | transloco }}
+    </p>
+    <div class="space-10"></div>
+    <p>{{ "next.contact1" | transloco }}</p>
+    <p>{{ "next.contact2" | transloco }}</p>
+
+    <button
+      type="button"
+      class="card-button-action link"
+      (click)="downloadCV()"
+    >
+      <mat-icon style="color: #d28c71" fontIcon="public"></mat-icon>
+      <span>Linkedin</span>
+    </button>
+  </app-card>
+</app-main-layout>

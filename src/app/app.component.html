@@ -1,1 +1,19 @@
-<router-outlet></router-outlet>
+<div
+  [@fadeIn]="state"
+  (@fadeIn.done)="onDone($event)"
+  [style.backgroundImage]="currentImage"
+  class="background-image"
+  style="z-index: 1; position: absolute"
+></div>
+<div
+  [style]="{ 'background-image': 'url(' + currentBackgroundUrl + ')' }"
+  style="position: absolute; top: 0"
+  class="background-image"
+></div>
+
+<div class="main-page" style="z-index: 2">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- <app-img-background [url]="currentBackgroundUrl">
+</app-img-background> -->

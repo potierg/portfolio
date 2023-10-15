@@ -9,15 +9,23 @@
     height: 126px;
     cursor: pointer;
     margin-bottom: 10px;
-
-    &:hover {
-      width: 140px;
-      height: 140px;  
-    }
   }
 
   .no-margin {
     margin-right: 0;
+  }
+
+  .col {
+    transition: padding-top 0.5s;
+    p {
+      color: white;
+      position: absolute;
+      text-align: center;
+      width: 126px;
+      font-weight: 500;
+      opacity: 0;
+      transition: opacity .5s ease-in-out;
+    }
   }
   
   .col.active {
@@ -25,5 +33,17 @@
       width: 160px;
       height: 160px;  
     }
+  }
+
+  .col:not(.active):hover {
+    padding-top: 0px;
+    p {
+      display: block;
+      opacity: 1;
+    }
+  }
+
+  .col:not(.active) {
+    padding-top: 30px;
   }
 }

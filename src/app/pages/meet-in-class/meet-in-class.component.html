@@ -1,54 +1,94 @@
-<app-img-background url="/assets/backgrounds/meet-in-class.png">
-  <app-top-bar></app-top-bar>
-  <app-tabs-menu selected="mic"></app-tabs-menu>
-  <app-main-layout>
-    <app-card>
-      <p class="title">{{ "meet-in-class.title" | transloco }}</p>
-      <p class="title-small">{{ "meet-in-class.smallTitle" | transloco }}</p>
-      <span class="space"></span>
-      <p class="subtitle">
-        {{ "meet-in-class.block1.subtitle" | transloco }}
-      </p>
-      <div class="text">
-        <p [innerHTML]="'meet-in-class.block1.text1' | transloco"></p>
-        <div class="space-10"></div>
-        <p [innerHTML]="'meet-in-class.block1.text2' | transloco"></p>
-      </div>
-      <span class="space"></span>
-      <p class="subtitle">
-        {{ "meet-in-class.subtitle" | transloco }}
-      </p>
-      <div class="container text-left">
-        <div class="row align-items-start">
-          <div class="col">
-            <ul>
-              <li [innerHTML]="'meet-in-class.block2.list.0' | transloco"></li>
-              <li [innerHTML]="'meet-in-class.block2.list.1' | transloco"></li>
-              <li [innerHTML]="'meet-in-class.block2.list.2' | transloco"></li>
-              <li [innerHTML]="'meet-in-class.block2.list.3' | transloco"></li>
-              <li [innerHTML]="'meet-in-class.block2.list.4' | transloco"></li>
-            </ul>
-          </div>
-          <div class="col">
-            <li [innerHTML]="'meet-in-class.block3.list.0' | transloco"></li>
-            <li [innerHTML]="'meet-in-class.block3.list.1' | transloco"></li>
-            <li [innerHTML]="'meet-in-class.block3.list.2' | transloco"></li>
-            <li [innerHTML]="'meet-in-class.block3.list.3' | transloco"></li>
-          </div>
+<app-top-bar></app-top-bar>
+<app-tabs-menu selected="mic"></app-tabs-menu>
+<app-main-layout>
+  <app-card>
+    <p class="title">{{ "meet-in-class.title" | transloco }}</p>
+    <p class="title-small">{{ "meet-in-class.smallTitle" | transloco }}</p>
+    <span class="space"></span>
+    <p class="subtitle">
+      {{ "meet-in-class.block1.subtitle" | transloco }}
+    </p>
+    <div class="text">
+      <p [innerHTML]="'meet-in-class.block1.text1' | transloco"></p>
+      <div class="space-10"></div>
+      <p [innerHTML]="'meet-in-class.block1.text2' | transloco"></p>
+    </div>
+    <span class="space"></span>
+    <p class="subtitle">
+      {{ "meet-in-class.subtitle" | transloco }}
+    </p>
+    <div class="container text-left">
+      <div class="row align-items-start">
+        <div class="col">
+          <ul>
+            <li [innerHTML]="'meet-in-class.block2.list.0' | transloco"></li>
+            <li [innerHTML]="'meet-in-class.block2.list.1' | transloco"></li>
+            <li [innerHTML]="'meet-in-class.block2.list.2' | transloco"></li>
+            <li [innerHTML]="'meet-in-class.block2.list.3' | transloco"></li>
+            <li [innerHTML]="'meet-in-class.block2.list.4' | transloco"></li>
+          </ul>
+        </div>
+        <div class="col">
+          <li [innerHTML]="'meet-in-class.block3.list.0' | transloco"></li>
+          <li [innerHTML]="'meet-in-class.block3.list.1' | transloco"></li>
+          <li [innerHTML]="'meet-in-class.block3.list.2' | transloco"></li>
+          <li [innerHTML]="'meet-in-class.block3.list.3' | transloco"></li>
         </div>
       </div>
-    </app-card>
-    <div style="height: 30px"></div>
-    <app-card [small]="true">
-      <p class="subtitle mb-0">{{ "meet-in-class.title2" | transloco }}</p>
-    </app-card>
-    <div style="height: 10px"></div>
-    <app-card [small]="true">
-      <p class="subtitle mb-0">{{ "meet-in-class.title3" | transloco }}</p>
-    </app-card>
-    <div style="height: 10px"></div>
-    <app-card [small]="true">
-      <p class="subtitle mb-0">{{ "meet-in-class.title4" | transloco }}</p>
-    </app-card>
-  </app-main-layout>
-</app-img-background>
+    </div>
+  </app-card>
+  <div style="height: 30px"></div>
+  <app-card [small]="true">
+    <div class="row justify-content-between">
+      <div class="col-9">
+        <p class="subtitle mb-0">{{ "meet-in-class.title2" | transloco }}</p>
+      </div>
+      <div class="col right-align">
+        <button
+          type="button"
+          class="card-button-action blue"
+          (click)="openWebsiteModal()"
+        >
+          <mat-icon style="color: white" fontIcon="visibility"></mat-icon>
+          <span class="margin">{{ "meet-in-class.btn" | transloco }}</span>
+        </button>
+      </div>
+    </div>
+  </app-card>
+  <div style="height: 10px"></div>
+  <app-card [small]="true">
+    <div class="row justify-content-between">
+      <div class="col-9">
+        <p class="subtitle mb-0">{{ "meet-in-class.title3" | transloco }}</p>
+      </div>
+      <div class="col right-align">
+        <button
+          type="button"
+          class="card-button-action blue"
+          (click)="openSaasModal()"
+        >
+          <mat-icon style="color: white" fontIcon="visibility"></mat-icon>
+          <span class="margin">{{ "meet-in-class.btn" | transloco }}</span>
+        </button>
+      </div>
+    </div>
+  </app-card>
+  <div style="height: 10px"></div>
+  <app-card [small]="true">
+    <div class="row justify-content-between">
+      <div class="col-9">
+        <p class="subtitle mb-0">{{ "meet-in-class.title4" | transloco }}</p>
+      </div>
+      <div class="col right-align">
+        <button
+          type="button"
+          class="card-button-action blue"
+          (click)="openSocialMediaModal()"
+        >
+          <mat-icon style="color: white" fontIcon="visibility"></mat-icon>
+          <span class="margin">{{ "meet-in-class.btn" | transloco }}</span>
+        </button>
+      </div>
+    </div>
+  </app-card>
+</app-main-layout>

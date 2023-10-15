@@ -1,0 +1,80 @@
+<app-modal (close)="bsModalRef.hide()">
+  <span title>{{ "meet-in-class.modals.1.title" | transloco }}</span>
+  <span icons>
+    <img class="first" src="/assets/techs/XD.png" />
+  </span>
+  <span body>
+    <div>
+      <p class="modal-block-title">
+        {{ "meet-in-class.modals.1.block1.title" | transloco }}
+      </p>
+      <span class="modal-space space-40"></span>
+      {{ "meet-in-class.modals.1.block1.text1" | transloco }}
+      <span class="modal-separator"></span>
+      {{ "meet-in-class.modals.1.block1.text2" | transloco }}
+      <span class="modal-separator"></span>
+      {{ "meet-in-class.modals.1.block1.text3" | transloco }}
+      <span class="modal-separator"></span>
+      {{ "meet-in-class.modals.1.block1.text4" | transloco }}
+      <span class="modal-separator"></span>
+      {{ "meet-in-class.modals.1.block1.text5" | transloco }}
+
+      <span class="modal-space space-40"></span>
+      <div class="row align-items-center">
+        <div class="col col-6">
+          <img
+            class="modal-img"
+            style="width: 100%"
+            src="/assets/meetinclass/saas-1.png"
+          />
+        </div>
+        <div class="col col-6">
+          <img
+            class="modal-img"
+            style="width: 100%; max-height: 371px"
+            src="/assets/meetinclass/saas-2.png"
+          />
+        </div>
+        <div class="col col-6 mt-3">
+          <img
+            class="modal-img"
+            style="width: 100%"
+            src="/assets/meetinclass/saas-3.png"
+          />
+        </div>
+        <div class="col col-6">
+          <div class="row align-items-center">
+            <div class="col col-6">
+              <img
+                class="modal-img"
+                style="width: auto; max-height: 371px; float: right"
+                src="/assets/meetinclass/saas-mobile-1.png"
+              />
+            </div>
+            <div class="col col-6">
+              <img
+                class="modal-img"
+                style="width: auto; max-height: 371px; float: right"
+                src="/assets/meetinclass/saas-mobile-2.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="modal-space space-40"></span>
+
+      <p class="modal-block-title">
+        {{ "meet-in-class.modals.1.block2.title" | transloco }}
+      </p>
+      <span class="modal-space space-40"></span>
+      {{ "meet-in-class.modals.1.block2.text" | transloco }}
+      <span class="modal-space space-40"></span>
+
+      <img
+        class="modal-img"
+        style="width: 100%"
+        src="/assets/meetinclass/saas-college.png"
+      />
+    </div>
+  </span>
+</app-modal>

@@ -1,0 +1,18 @@
+<button
+  type="button"
+  class="btn-close"
+  data-bs-dismiss="modal"
+  aria-label="Close"
+  (click)="close.emit()"
+></button>
+<div class="inner-modal">
+  <p class="modal-title">
+    <ng-content select="[title]"></ng-content>
+  </p>
+  <div class="modal-icons">
+    <ng-content select="[icons]"></ng-content>
+  </div>
+  <div class="modal-body">
+    <ng-content select="[body]"></ng-content>
+  </div>
+</div>

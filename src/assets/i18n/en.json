@@ -1,4 +1,10 @@
 {
+  "home": {
+    "fr": "French",
+    "en": "English",
+    "description": "Empathy / Team work / Agility",
+    "btn": "Enter"
+  },
   "about": {
     "title": "About",
     "block1": {
@@ -13,7 +19,8 @@
       "text1": "I have a passion for <b>embroidery</b>, which I discovered as an art form that allows for endless creativity and personal satisfaction. Each stitch I make on the fabric is an opportunity for me to express my personality and create unique pieces filled with emotion.",
       "text2": "I had the incredible opportunity to embark on a year-long adventure in <b>Australia</b>. This experience was truly transformative, allowing me to explore different professions, breathtaking landscapes, and fascinating individuals. This immersive journey enabled me to develop unwavering open-mindedness, gain self-confidence, and deepen my empathy towards others. Each encounter was an opportunity for enrichment and connection with people from diverse cultures.",
       "text3": "As an <b>empathetic</b> individual, I strive to create inclusive environments and value the needs and aspirations of those around me. I am excited to leverage my skills and passion to contribute to projects that have a positive impact on individuals and communities."
-    }
+    },
+    "download": "Download Resume"
   },
   "epitech": {
     "title": "EPITECH DIGITAL SCHOOL",
@@ -47,7 +54,32 @@
     },
     "title2": "Print communication materials",
     "title3": "Web integration and animations",
-    "btn": "View"
+    "btn": "View",
+    "modals": {
+      "0": {
+        "title": "Web integration and animations",
+        "block": {
+          "text1": "As a Graphic Designer and Web Integrator at Mobibam, I had the opportunity to work on an exciting project: the development of an interactive toolbar for the online 3D configurator. My goal was to create an immersive and engaging experience for our customers, allowing them to visualize our custom-made furniture realistically.",
+          "text2": "Using my HTML and CSS skills, I designed an intuitive toolbar that allows users to browse and select different types of furniture we offer. I ensured that the toolbar was aesthetically appealing and easy to use, highlighting furniture categories clearly and visually.",
+          "text3": "To add a touch of animation and interactivity, I implemented hover animations for the furniture items. When users hover over a piece of furniture, it animates by opening drawers or cabinets, providing an immersive visual experience. This feature allows customers to easily envision their future space and appreciate the details and functionality.",
+          "text4": "Another important consideration was to make this functionality accessible across different devices. Therefore, I adapted the interactive toolbar to be responsive, meaning it adapts to different screen sizes, whether on a tablet or mobile. This way, our customers can use the 3D configurator and explore our range of custom-made furniture anytime, anywhere."
+        },
+        "desktop": "desktop ",
+        "tablet": "tablet",
+        "mobile": "mobile"
+      },
+      "1": {
+        "title": "Print communication materials",
+        "block": {
+          "text1": "As a Graphic Designer / Web Integrator at Mobibam, I worked on various print communication materials to promote our custom-made furniture. These materials included a kakemono, a brochure, a flyer, a discount card, and a construction manual. Through these print communication materials, my aim was to showcase Mobibam's expertise in creating custom French furniture, offering our customers a unique and personalized experience in interior design.",
+          "text2": "The discount card serves as a way to foster customer loyalty for their future design projects. The card I created provides benefits and discounts on our custom-made products.",
+          "text3": "The brochure is an essential medium for presenting our range of furniture. I created a visually appealing brochure, highlighting our achievements and emphasizing the quality, durability, and design of our products.",
+          "text4": "The construction manual is a practical and informative tool that guides our customers through the assembly process of their custom-made furniture. I developed a clear and detailed tutorial, complete with diagrams and instructions, to facilitate the construction process for our customers.",
+          "text5": "The kakemono is a powerful tool for capturing attention at events. It showcases our flagship product and acts as a mobile showcase for our custom creations.",
+          "text6": "The flyer is an effective tool for enticing customers to visit our showroom. I utilized furniture visuals, illustrations, and compelling messages to introduce and promote our creations."
+        }
+      }
+    }
   },
   "meet-in-class": {
     "title": "MEET IN CLASS",
@@ -80,7 +112,78 @@
     "title2": "Website",
     "title3": "SAAS Platform",
     "title4": "Content and Social Media",
-    "btn": "View"
+    "btn": "View",
+    "modals": {
+      "0": {
+        "title": "",
+        "block1": {
+          "title": "\"TEACHERS\" PAGE",
+          "text": "As a UI/UX designer, I was responsible for revamping the \"Teachers\" page and the \"Courses\" page. I began with an analysis of the website and competitors such as Kelclass, Superprof, Voscours, etc. Here are the key findings:"
+        },
+        "block2": {
+          "title": "Positive aspects :",
+          "list": {
+            "0": "Information: photo, first name, experience, location",
+            "1": "Contact : send a message, call MeetinClass, request a lesson",
+            "2": "About section written by the teacher",
+            "3": "Key information about the course"
+          }
+        },
+        "block3": {
+          "title": "Negative aspects :",
+          "list": {
+            "0": "Key information about the course",
+            "1": "Absence of reviews or recommendations from former students and parents that could reassure prospective clients",
+            "2": "Separation of teachers from the courses they offer"
+          }
+        },
+        "block4": {
+          "title": "Redesign :",
+          "text1": "We now have a more detailed and reassuring \"Teachers\" page for students and parents. ",
+          "text2": "At a glance, users can get an overview of the teacher, the subjects they teach, and the number of reviews they have received.",
+          "text3": "Our certified teachers now have a certification badge. Each teacher has the opportunity to take a proficiency test to validate their teaching skills.",
+          "text4": "The \"About\" section is initially condensed and can be expanded by students or parents to learn more.",
+          "text5": "The courses offered by the teacher are displayed, allowing students to enroll directly without waiting for another student to sign up to create a course.",
+          "text6": "Finally, each student or parent has the option to leave a review for the teacher after the lesson."
+        }
+      },
+      "1": {
+        "title": "SAAS Platform",
+        "block1": {
+          "title": "A Platform for Teachers",
+          "text1": "MeetinClass aims to provide teachers with a user-friendly SAAS platform that allows them to focus primarily on their students.",
+          "text2": "The \"Dashboard\" page provides teachers with an overview of their upcoming classes, their balance, the payment history of students, and allows them to manage their weekly availability.",
+          "text3": "The \"My Courses\" page allows teachers to access their available courses and the list of enrolled students. They have the option to modify the schedule but cannot delete it. In case of absence, teachers can inform MeetinClass.",
+          "text4": "On the \"My Sessions\" page, teachers can review their course history, verify completed payments, and revisit the follow-ups they have sent via email.",
+          "text5": "The SAAS platform is also responsive, enabling teachers to easily access it from their phones."
+        },
+        "block2": {
+          "title": "A Platform for Middle and High Schools",
+          "text": "MeetinClass has established partnerships with schools, allowing middle and high school students to benefit from support classes after regular school hours. To meet this need, a dedicated page for schools has been developed, enabling administrators and supervisors to manage these classes. On this page, they have access to the list of students by class and the private tutors from MeetinClass who are involved."
+        }
+      },
+      "2": {
+        "title": "Content and Social Media",
+        "block1": {
+          "title": "Editorial Calendar",
+          "text1": "At MeetinClass, I played a versatile role and had a strong appetite for learning, constantly seeking to improve. I actively contributed to the development of the editorial calendar, participating in the creation of Facebook advertisements, and conducting tests to determine the most impactful ads.",
+          "text2": "Furthermore, I had the opportunity to create articles for their blog, enhancing them with illustrations, as well as producing videos for MeetinClass' YouTube channel."
+        },
+        "block2": {
+          "title": "Blog Articles",
+          "text1": "MeetinClass has developed a blog to share relevant tips and information about education. Through this platform, I had the opportunity to write blog articles and enhance my skills using Wordpress.",
+          "text2": "Through this blog, I also had the chance to unleash my creativity by designing infographics that visually complemented the article content. By combining text and images, I provided an enriching experience for readers, making the content more engaging and easy to comprehend."
+        },
+        "block3": {
+          "title": "YouTube Videos",
+          "text": "I edited YouTube videos aimed at promoting MeetinClass and increasing its visibility among parents. Through these videos, I highlighted the advantages and unique features of our educational platform while providing entertaining and informative content. By utilizing professional editing techniques and creating captivating content, we were able to reach a broad audience of parents interested in online education."
+        },
+        "block4": {
+          "title": "Facebook Advertisements",
+          "text": "To optimize our advertising strategy on Facebook, we created two ads with distinct variables to better understand our target audience. The aim was to refine our approach and deliver more targeted messaging that resonates with our desired demographic."
+        }
+      }
+    }
   },
   "door-in": {
     "title": "DOOR-IN",
@@ -110,6 +213,7 @@
     "btn": "View"
   },
   "australia": {
+    "superTitle": "Australia",
     "title": "1 year in Australia",
     "smallTitle": "Working Holiday Visa - August 2022 - 2023",
     "block1": {
@@ -163,6 +267,7 @@
     "subtitle": "CONTACT",
     "contact1": "Phone : +33 7 49 39 88 35",
     "contact2": "Email : potiersophie@hotmail.fr",
-    "btn": "Linkedin"
+    "btn": "Linkedin",
+    "download": "Download Resume"
   }
 }

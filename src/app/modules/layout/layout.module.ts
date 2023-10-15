@@ -6,6 +6,8 @@ import { ImgBackgroundComponent } from './img-background/img-background.componen
 import { RouterModule } from '@angular/router';
 import { CardComponent } from './card/card.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
+import { TranslocoRootModule } from 'src/app/transloco-root.module';
+import { ModalComponent } from './modals/modal.component';
 
 @NgModule({
   declarations: [
@@ -14,14 +16,16 @@ import { MainLayoutComponent } from './main-layout/main-layout.component';
     ImgBackgroundComponent,
     MainLayoutComponent,
     CardComponent,
+    ModalComponent,
   ],
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, TranslocoRootModule],
   exports: [
     TopBarComponent,
     TabsMenuComponent,
     ImgBackgroundComponent,
     MainLayoutComponent,
     CardComponent,
+    ModalComponent,
   ],
 })
 export class LayoutModule {}

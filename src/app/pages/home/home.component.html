@@ -1,25 +1,35 @@
 <div class="home-page">
   <div class="home-page__middle">
     <div class="home-page__middle--lang">
-      <button class="lang margin active">
+      <button
+        (click)="changeLanguage('fr')"
+        class="lang margin"
+        [class]="{ active: translocoService.getActiveLang() === 'fr' }"
+      >
         <img src="/assets/flags/fr.png" />
-        <span>Français</span>
+        <span>{{ "home.fr" | transloco }}</span>
       </button>
 
-      <button class="lang">
+      <button
+        (click)="changeLanguage('en')"
+        class="lang"
+        [class]="{ active: translocoService.getActiveLang() === 'en' }"
+      >
         <img src="/assets/flags/en.png" />
-        <span>English</span>
+        <span>{{ "home.en" | transloco }}</span>
       </button>
     </div>
 
     <div class="home-page__middle--title">SOPHIE POTIER</div>
     <div class="home-page__middle--profession">PRODUCT OWNER</div>
-    <div class="home-page__middle--sub">Empathie / Team work / Agilité</div>
+    <div class="home-page__middle--sub">
+      {{ "home.description" | transloco }}
+    </div>
 
     <div class="home-page__middle--discover">
-      <button class="icon active">
+      <button class="icon active" [routerLink]="'/about'">
         <mat-icon style="color: white" fontIcon="play_arrow"></mat-icon>
-        <span>Découvrir</span>
+        <span>{{ "home.btn" | transloco }}</span>
       </button>
     </div>
   </div>

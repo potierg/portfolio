@@ -1,0 +1,44 @@
+<app-modal (close)="bsModalRef.hide()">
+  <span title>{{ "mobibam.modals.0.title" | transloco }}</span>
+  <span icons>
+    <img class="first" src="/assets/techs/CSS3.png" />
+    <img src="/assets/techs/HTML5.png" />
+  </span>
+  <span body>
+    {{ "mobibam.modals.0.block.text1" | transloco }}
+    <span class="modal-separator"></span>
+    {{ "mobibam.modals.0.block.text2" | transloco }}
+    <span class="modal-separator"></span>
+    {{ "mobibam.modals.0.block.text3" | transloco }}
+    <span class="modal-separator"></span>
+    {{ "mobibam.modals.0.block.text4" | transloco }}
+    <span class="modal-space"></span>
+    <span class="modal-block-title">
+      {{ "mobibam.modals.0.desktop" | transloco }}
+    </span>
+    <span class="modal-space"></span>
+    <img class="modal-img" src="/assets/mobibam/desktop1.png" />
+    <span class="modal-space"></span>
+    <img class="modal-img" src="/assets/mobibam/desktop2.png" />
+    <span class="modal-space"></span>
+    <span class="modal-block-title">
+      {{ "mobibam.modals.0.tablet" | transloco }}
+    </span>
+    <span class="modal-space"></span>
+    <img class="modal-img" src="/assets/mobibam/tablet1.png" />
+    <span class="modal-space"></span>
+    <img class="modal-img" src="/assets/mobibam/tablet2.png" />
+    <span class="modal-space"></span>
+    <span class="modal-block-title">
+      {{ "mobibam.modals.0.mobile" | transloco }}
+    </span>
+    <span class="modal-space"></span>
+    <div>
+      <img
+        style="width: 539px; display: block; margin: auto"
+        class="modal-img"
+        src="/assets/mobibam/mobile.png"
+      />
+    </div>
+  </span>
+</app-modal>

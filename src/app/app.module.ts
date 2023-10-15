@@ -17,9 +17,22 @@ import { AustraliaComponent } from './pages/australia/australia.component';
 import { NextComponent } from './pages/next/next.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
+import { FormsModule } from '@angular/forms';
+import { BsModalService, ModalModule } from 'ngx-bootstrap/modal';
+import { ModalsModule } from './modules/modals/modals.module';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, AboutComponent, EpitechComponent, MobibamComponent, MeetInClassComponent, DoorInComponent, AustraliaComponent, NextComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    EpitechComponent,
+    MobibamComponent,
+    MeetInClassComponent,
+    DoorInComponent,
+    AustraliaComponent,
+    NextComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -28,8 +41,11 @@ import { TranslocoRootModule } from './transloco-root.module';
     LayoutModule,
     HttpClientModule,
     TranslocoRootModule,
+    FormsModule,
+    ModalModule,
+    ModalsModule,
   ],
-  providers: [],
+  providers: [BsModalService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

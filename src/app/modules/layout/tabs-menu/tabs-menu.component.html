@@ -9,6 +9,7 @@
         "
         [routerLink]="'/about'"
       />
+      <p>{{ "about.title" | transloco }}</p>
     </div>
     <div class="col" [class]="{ active: selected === 'epitech' }">
       <img
@@ -19,6 +20,7 @@
         "
         [routerLink]="'/epitech'"
       />
+      <p>Epitech</p>
     </div>
     <div class="col" [class]="{ active: selected === 'mobibam' }">
       <img
@@ -29,6 +31,7 @@
         "
         [routerLink]="'/mobibam'"
       />
+      <p>Mobibam</p>
     </div>
     <div class="col" [class]="{ active: selected === 'mic' }">
       <img
@@ -37,6 +40,7 @@
         "
         [routerLink]="'/meet-in-class'"
       />
+      <p>MeetInClass</p>
     </div>
     <div class="col" [class]="{ active: selected === 'doorin' }">
       <img
@@ -47,6 +51,7 @@
         "
         [routerLink]="'/door-in'"
       />
+      <p>Door-In</p>
     </div>
     <div class="col" [class]="{ active: selected === 'australia' }">
       <img
@@ -57,6 +62,7 @@
         "
         [routerLink]="'/australia'"
       />
+      <p>{{ "australia.superTitle" | transloco }}</p>
     </div>
     <div class="col" [class]="{ active: selected === 'next' }">
       <img
@@ -65,6 +71,7 @@
         "
         [routerLink]="'/next'"
       />
+      <p>{{ "next.title" | transloco }}</p>
     </div>
   </div>
 </div>
